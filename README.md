@@ -20,3 +20,18 @@ project-folder/
    - Contact: http://localhost:3000/contact
    - Invalid route: http://localhost:3000/xyz → shows 404 page (error pages)
 
+## Screenshots
+### Server Log
+![serverLog](./screenshots/server.png)
+
+### Home Page
+![Home Page](./screenshots/home.png)
+
+### About Page
+![About Page](screenshots/about.png)
+
+### Contact Page
+![Contact Page](./screenshots/contact.png)
+
+### 404 Page
+![404 Page](./screenshots/404.png)
