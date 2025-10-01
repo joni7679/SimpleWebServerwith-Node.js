@@ -1,7 +1,8 @@
-# SimpleWebServerwith-Node.js
-This project is a simple Node.js server created using the built-in 'http' module. 
+# SimpleWebServerwith-Node.js =====
+
+** This project is a simple Node.js server created using the built-in 'http' module. 
 It serves different HTML pages (Home, About, Contact) based on the route 
-and shows a 404 page for invalid routes....!
+and shows a 404 page for invalid routes....!   **
 
 project-folder/
 │-- server.js          
@@ -20,8 +21,8 @@ project-folder/
    - Contact: http://localhost:3000/contact
    - Invalid route: http://localhost:3000/xyz → shows 404 page (error pages)
 
-## Screenshots
-### Server Log
+## screenshots
+### server Page
 ![serverLog](./screenshots/server.png)
 
 ### Home Page
