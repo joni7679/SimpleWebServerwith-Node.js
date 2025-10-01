@@ -7,10 +7,9 @@ let fs = require("fs");
 
 // create server logic here...
 let app = http.createServer((req, res) => {
-
     // path name variable here..
     let pathName;
-    // destructor  here logic here   url = req (only)
+    // destructor  here logic here  { url, methoed ,headers} = req 
     const { url } = req;
     if (url === '/' || url.toLowerCase() === '/home') {
         pathName = path.join(__dirname, "pages", "home.html");
