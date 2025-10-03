@@ -39,8 +39,8 @@ let app = http.createServer((req, res) => {
 // port name here...
 let Port = 3000;
 
-// run server here....
+// run server logic  here....
 app.listen(Port, () => {
-    console.log(`your node.js server is running http://localhost/:${Port}`);
+    console.log(`your node.js server is running http://localhost:${Port}`);
 })
 
